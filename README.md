@@ -6,7 +6,7 @@ Proyecto web sobre una tienda de té. CSS nivel intermedio (Codecademy) y html.
   - [Tecnologías utilizadas](#tecnologías-utilizadas)
   - [Imágenes](#imágenes)
   - [Requisitos previos](#requisitos-previos)
-  - [Instrucciones](#instrucciones)
+  - [Instrucciones para su instalación](#instrucciones-para-su-instalación)
 
 ## Tecnologías utilizadas
 
@@ -30,7 +30,7 @@ Proyecto web sobre una tienda de té. CSS nivel intermedio (Codecademy) y html.
 - [Visual Studio Code](https://code.visualstudio.com/) debe estar instalado.
 - La extensión [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) debe estar instalada en VS Code.
 
-## Instrucciones
+## Instrucciones para su instalación
 
 ##### 1. Clonar el Repositorio desde GitHub
 

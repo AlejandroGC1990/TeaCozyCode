@@ -162,5 +162,29 @@ p {
 }
 
 footer {
-  
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+footer div {
+  /* background-color: aqua; */
+  height: 200px;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer h2, h5 {
+  margin-top: 10px;
+}
+
+#copyright {
+  width: 1220px;
+  text-align: left;
+  left: 20px;
 }

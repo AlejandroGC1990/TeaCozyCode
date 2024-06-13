@@ -53,3 +53,36 @@ nav li {
   text-decoration: underline;
   padding: 0 5px;
 }
+
+body div {
+  max-width: 1205px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  margin-bottom: 69px;
+  padding-top: 50px;
+}
+
+#ourMission img {
+  width: 100%;
+  height: auto;
+}
+
+#ourMission div {
+  padding: 5px 0;
+  position: absolute;
+  top: 380px;
+  background-color: #000;
+  height: contain;
+  min-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

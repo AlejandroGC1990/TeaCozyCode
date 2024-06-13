@@ -8,7 +8,7 @@ Proyecto web sobre una tienda de té. CSS nivel intermedio (Codecademy) y html.
 
 ## Tecnologías utilizadas
 
--HTML5
+-HTML5 <br>
 -CSS3 (nivel intermedio según prueba de Codecademy - https://www.codecademy.com/enrolled/courses/learn-intermediate-css)
 
 ## Imágenes 

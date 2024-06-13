@@ -14,7 +14,6 @@ body {
   padding-top: 70px;
   display: flex;
   flex-direction: column;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -75,6 +74,27 @@ section {
   margin-top: 50px;
 }
 
+.text {
+  position: absolute;
+  height: contain;
+  min-width: 1200px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  width: 300px;
+  margin: 0px 10px 10px 10px;
+}
+
+.dashboard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 #ourMission img {
   width: 100%;
   height: auto;
@@ -82,18 +102,14 @@ section {
 }
 
 #ourMission div {
-  padding: 5px 0;
-  position: absolute;
-  top: 380px;
   background-color: #000;
-  height: contain;
-  min-width: 1200px;
+  padding: 5px 0;
+  top: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 
 #teaMonth {
   display: flex;
@@ -103,26 +119,48 @@ section {
   align-items: center;
 }
 
-#teaMonth 
-h2, 
+#teaMonth h2,
 p {
   margin-bottom: 20px;
-}
-
-.dashboard {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
-}
-
-#teaMonth .card {
-  display: flex;
-  flex-direction: column;
 }
 
 #teaMonth .card img {
   width: 300px;
   height: 200px;
   margin: 10px;
+}
+
+#locations {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*lsct64*_gcl_au*OTI2MjUyNjk4LjE3MTgyNzE1ODM.*_ga*MzQ3MjIwODMyMy4xNzE4MjcxNTk2*_ga_3LRZM6TM9L*MTcxODI3MTU5Ny4xLjAuMTcxODI3MTU5Ny4wLjAuMA..");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 75px;
+}
+
+#locations img {
+  width: 1200px;
+  height: 500px;
+}
+
+#locations .card {
+  width: 300px;
+  opacity: 1;
+  margin: 20px;
+  margin-top: 15px;
+}
+
+#locations .card h3 {
+  margin: 20px;
+}
+#locations .card p {
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+footer {
+  
 }
